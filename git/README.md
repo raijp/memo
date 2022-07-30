@@ -15,3 +15,17 @@ git branch -a
 ```
 git checkout <branch>
 ```
+# Show tags
+```
+git tag
+```
+# Add tag
+```
+git tag <tagname>
+# If you want to add a message, run:
+git tag -a <tagname> -m <message>
+```
+# Push tag
+```
+git push origin <tagname>
+```
