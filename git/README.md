@@ -23,7 +23,7 @@ git branch -a
 ```
 git checkout <branch>
 ```
-# Switch create a branch & push
+# Create a branch & push
 ```
 git checkout -b <branch>
 git push --set-upstream <branch>
