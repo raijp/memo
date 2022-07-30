@@ -63,3 +63,11 @@ git reset --hard <HEAD>
 # Basically, the following command is recommended for undoing, as it will be logged.
 git checkout <HEAD> <Path>
 ```
+# How to add an empty directory
+```
+mkdir tmp
+touch tmp/.gitignore
+git add tmp
+echo '*' > tmp/.gitignore
+git commit -m 'Empty directory' tmp
+```
