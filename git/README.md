@@ -42,3 +42,9 @@ git tag -d <tag>
 ```
 git push --delete origin <tag>
 ```
+# Show logs
+```
+git log
+# oneline
+git log --oneline
+```
