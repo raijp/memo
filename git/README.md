@@ -59,6 +59,6 @@ git log --oneline
 # Revert to an HEAD
 ```
 git reset --hard <HEAD>
-# Also you can specify directory or file path.
+# Also you can specify a directory or file path. I recommend the following command because the log remain.
 git checkout <HEAD> <Path>
 ```
