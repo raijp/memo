@@ -7,6 +7,15 @@ git config --global credential.helper store 'cache --timeout 7200'
 ```
 git add . && git commit -m "<message>" &&  git push 
 ```
+# Push to the specific branch
+```
+git push origin <branch>
+```
+```
+# Delete the specific branch
+```
+git push --remove origin <branch>
+```
 # Show all branch
 ```
 git branch -a
