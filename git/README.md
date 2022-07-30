@@ -15,9 +15,10 @@ git branch -a
 ```
 git checkout <branch>
 ```
-# Switch create a branch
+# Switch create a branch & push
 ```
 git checkout -b <branch>
+git push --set-upstream <branch>
 ```
 # Show tags
 ```
@@ -25,19 +26,19 @@ git tag
 ```
 # Add a tag
 ```
-git tag <tagname>
+git tag <tag>
 # If you want to add a message, run:
-git tag -a <tagname> -m <message>
+git tag -a <tag> -m <message>
 ```
 # Push a tag
 ```
-git push origin <tagname>
+git push origin <tag>
 ```
 # Delete a local tag.
 ```
-git tag -d <tagname>
+git tag -d <tag>
 ```
 # Delete a remote tag.
 ```
-git push --delete origin <tagname>
+git push --delete origin <tag>
 ```
