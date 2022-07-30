@@ -31,9 +31,9 @@ git push origin <tagname>
 ```
 # Delete a local tag.
 ```
-git tag -d tagname>
+git tag -d <tagname>
 ```
 # Delete a remote tag.
 ```
-git push --delete origin tagname>
+git push --delete origin <tagname>
 ```
