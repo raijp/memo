@@ -11,7 +11,6 @@ git add . && git commit -m "<message>" &&  git push
 ```
 git push origin <branch>
 ```
-```
 # Delete the specific branch
 ```
 git push --remove origin <branch>
