@@ -48,7 +48,7 @@ git log
 # oneline
 git log --oneline
 ```
-# Back to specific HEAD
+# Back to the specific HEAD
 ```
 git reset --hard <HEAD>
 ```
