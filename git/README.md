@@ -56,7 +56,7 @@ git log
 # oneline
 git log --oneline
 ```
-# Revert to the specified HEAD
+# Revert to an HEAD
 ```
 git reset --hard <HEAD>
 # Also you can specify directory or file path.
