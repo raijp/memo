@@ -51,5 +51,4 @@ git log --oneline
 # Back to specific HEAD
 ```
 git reset --hard <HEAD>
-git pull
 ```
