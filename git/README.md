@@ -1,4 +1,4 @@
-# If you don't want to input username and password for every push, Run :
+# If you don't want to enter username and password for every push, Run :
 ```
 # You can also get rid of the 'cache --timeout 7200'
 git config --global credential.helper store 'cache --timeout 7200'
@@ -56,7 +56,7 @@ git log
 # oneline
 git log --oneline
 ```
-# Back to the specified HEAD
+# Revert to the specified HEAD
 ```
 git reset --hard <HEAD>
 # Also you can specify directory or file path.
