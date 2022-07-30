@@ -60,5 +60,5 @@ git log --oneline
 ```
 git reset --hard <HEAD>
 # Also you can specify directory or file path.
-git reset --hard <HEAD> <Path>
+git checkout <HEAD> <Path>
 ```
