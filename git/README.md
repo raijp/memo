@@ -7,25 +7,29 @@ git config --global credential.helper store 'cache --timeout 7200'
 ```
 git add . && git commit -m "<message>" &&  git push 
 ```
-# See branch all
+# Show all branch
 ```
 git branch -a
 ```
-# Switch branch
+# Switch a branch
 ```
 git checkout <branch>
+```
+# Switch create a branch
+```
+git checkout -b <branch>
 ```
 # Show tags
 ```
 git tag
 ```
-# Add tag
+# Add a tag
 ```
 git tag <tagname>
 # If you want to add a message, run:
 git tag -a <tagname> -m <message>
 ```
-# Push tag
+# Push a tag
 ```
 git push origin <tagname>
 ```
