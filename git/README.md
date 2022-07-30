@@ -7,11 +7,11 @@ git config --global credential.helper store 'cache --timeout 7200'
 ```
 git add . && git commit -m "<message>" &&  git push 
 ```
-# Push to the specific branch
+# Push to a branch
 ```
 git push origin <branch>
 ```
-# Delete the specific branch
+# Delete a branch
 ```
 git push --remove origin <branch>
 ```
@@ -56,7 +56,7 @@ git log
 # oneline
 git log --oneline
 ```
-# Back to the specific HEAD
+# Back to the specified HEAD
 ```
 git reset --hard <HEAD>
 ```
