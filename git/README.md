@@ -59,6 +59,7 @@ git log --oneline
 # Revert to an HEAD
 ```
 git reset --hard <HEAD>
-# Also you can specify a directory or file path. I recommend the following command because the log remain.
+# Of course, you can specify a directory or file path.
+# Basically, the following command is recommended for undoing, as it will be logged.
 git checkout <HEAD> <Path>
 ```
