@@ -29,3 +29,11 @@ git tag -a <tagname> -m <message>
 ```
 git push origin <tagname>
 ```
+# Delete a local tag.
+```
+git tag -d tagname>
+```
+# Delete a remote tag.
+```
+git push --delete origin tagname>
+```
