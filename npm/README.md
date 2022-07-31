@@ -1,11 +1,6 @@
-# Make package.json
+# Search a module using npm
 ```
-npm init
-```
-
-# Search a package name using NPM.
-```
-npm search <package name>
+npm search <module name>
 ```
 
 # Check all modules installed globally
@@ -13,4 +8,16 @@ npm search <package name>
 npm ls -g
 # You can check all locally installed modules by removing -g.
 npm ls
+```
+
+# Make package.json
+```
+npm init
+```
+
+# Install module locally.
+```
+npm install <module>
+# See package.json to check if it is installed.
+cat package.json
 ```
