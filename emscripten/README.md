@@ -1,1 +1,1 @@
-emcc -g -gsource-map --source-map-base "http://localhost/tmp/emscripten/" demo-cpp.cc -o demo-cpp.html
+emcc -g -s ALLOW_MEMORY_GROWTH -fdebug-compilation-dir='.' demo-cpp.cc -o demo-cpp.html
