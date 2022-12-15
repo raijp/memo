@@ -13,7 +13,7 @@ git push origin <branch>
 ```
 # Delete a branch
 ```
-git push --remove origin <branch>
+git push --delete origin <branch>
 ```
 # Show all branch
 ```
